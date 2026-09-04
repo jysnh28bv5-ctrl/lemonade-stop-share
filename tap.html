@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"/>
+<title>Lemonade Stop · Getting there</title>
+<meta name="description" content="Directions, Uber, Lyft, and maps for Lemonade Stop at the Yacht Club, One Uptown Newport."/>
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; min-height: 100vh;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Georgia, serif;
+    background: #F5F0E6; color: #1a2e28;
+    display: flex; justify-content: center;
+  }
+  main { width: min(100%, 440px); padding: 28px 20px 48px; }
+  h1 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.75rem; font-weight: 600; margin: 0 0 6px;
+  }
+  .sub { color: #3d5a4f; margin: 0 0 4px; font-size: 1rem; }
+  .when { color: #5a6b64; margin: 0 0 18px; font-size: 0.95rem; }
+  .addr {
+    background: #fff; border: 1px solid #e2d8c4; border-radius: 14px;
+    padding: 14px 16px; margin-bottom: 18px; font-size: 0.95rem; line-height: 1.4;
+  }
+  .gate { font-size: 1.35rem; font-weight: 700; letter-spacing: 0.12em; margin-top: 6px; }
+  .hint {
+    font-size: 0.85rem; color: #6b5a3e; background: #f0e6d2;
+    border-radius: 10px; padding: 10px 12px; margin-bottom: 18px; line-height: 1.35;
+  }
+  a.btn {
+    display: block; text-align: center; text-decoration: none;
+    border-radius: 999px; padding: 16px 18px; margin: 0 0 12px;
+    font-size: 1.12rem; font-weight: 650;
+  }
+  a.btn:active { transform: scale(0.98); }
+  .directions { background: #1a2e28; color: #F5F0E6; }
+  .uber { background: #000; color: #fff; }
+  .lyft { background: #FF00BF; color: #fff; }
+  .maps { background: #fff; color: #1a2e28; border: 2px solid #1a2e28; }
+  .foot { margin-top: 22px; font-size: 0.8rem; color: #7a7266; text-align: center; line-height: 1.4; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Lemonade Stop</h1>
+  <p class="sub">Yacht Club · One Uptown Newport</p>
+  <p class="when">Sunday, September 6 · 4–8 PM</p>
+  <div class="addr">
+    4201 Jamboree Rd, Newport Beach, CA 92660<br/>
+    Garage gate code
+    <div class="gate">057513</div>
+  </div>
+  <p class="hint">No Canva app needed. If this opened inside Messages, tap ··· then Open in Safari.</p>
+  <a class="btn directions" href="https://www.google.com/maps/dir/?api=1&destination=4201%20Jamboree%20Rd%2C%20Newport%20Beach%2C%20CA%2092660&travelmode=driving">Directions</a>
+  <a class="btn uber" href="https://m.uber.com/ul/?action=setPickup&pickup=my_location&dropoff%5Blatitude%5D=33.6617503&dropoff%5Blongitude%5D=-117.8593677&dropoff%5Bnickname%5D=Yacht+Club+drop-off+%C2%B7+One+Uptown+Newport&dropoff%5Bformatted_address%5D=4201+Jamboree+Rd%2C+Newport+Beach%2C+CA+92660">Uber</a>
+  <a class="btn lyft" href="https://www.lyft.com/ride?destination%5Blatitude%5D=33.6617503&destination%5Blongitude%5D=-117.8593677&destination%5Baddress%5D=4201+Jamboree+Rd%2C+Newport+Beach%2C+CA+92660">Lyft</a>
+  <a class="btn maps" href="https://maps.apple.com/?daddr=4201%20Jamboree%20Rd%2C%20Newport%20Beach%2C%20CA%2092660&dirflg=d">Apple Maps</a>
+  <a class="btn maps" href="https://www.google.com/maps/search/?api=1&query=One%20Uptown%20Newport%2C%204201%20Jamboree%20Rd%2C%20Newport%20Beach%2C%20CA%2092660">Google Maps</a>
+  <a class="btn maps" href="https://waze.com/ul?ll=33.6617503%2C-117.8593677&navigate=yes&q=4201%20Jamboree%20Rd%2C%20Newport%20Beach%2C%20CA%2092660">Waze</a>
+  <p class="foot">Works in Safari. Gate code is also on your invitation.</p>
+</main>
+</body>
+</html>
